@@ -42,8 +42,8 @@ function generateWiki(wikiNum) {
     wikiImg.setAttribute("src", "");
 
     imgContainer.appendChild(wikiImg);
-    wikiContent.appendChild(wikiText);
     wikiContent.appendChild(imgContainer);
+    wikiContent.appendChild(wikiText);
     wikiItem.appendChild(wikiHeader);
     wikiItem.appendChild(wikiContent);
     container.appendChild(wikiItem);
